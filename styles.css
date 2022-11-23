@@ -93,4 +93,8 @@ body {
     box-shadow: 0 0.4rem 0.4rem rgb(0 0 0 / 70%);
     text-align: center;
   }
+  .count:hover {
+    background-color: rgb(0, 183, 255);
+    cursor: pointer;
+  }
 }
