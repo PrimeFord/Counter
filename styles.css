@@ -60,3 +60,37 @@ body {
   background-color: rgb(0, 183, 255);
   cursor: pointer;
 }
+@media (max-width: 640px) {
+  :root {
+    font-size: 16px;
+  }
+  .container {
+    height: 29rem;
+    width: 19rem;
+    border-radius: 0.2rem;
+    padding: 3rem;
+  }
+  .display {
+    font-size: 10rem;
+    height: 55%;
+  }
+  .tune {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    height: max-content;
+    gap: 1rem;
+  }
+  .count {
+    background-color: #0d2c54;
+    width: max-content;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.4rem 0.4rem rgb(0 0 0 / 70%);
+    text-align: center;
+  }
+}
