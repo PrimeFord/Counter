@@ -11,8 +11,10 @@ sub.addEventListener(
     display.textContent = init;
     if (parseInt(display.textContent) > 0) {
       display.style.color = "green";
-    } else {
+    } else if (parseInt(display.textContent) < 0) {
       display.style.color = "red";
+    } else {
+      display.style.color = "rgb(51 51 51)";
     }
   })
 );
@@ -24,8 +26,10 @@ add.addEventListener(
     display.textContent = init;
     if (parseInt(display.textContent) > 0) {
       display.style.color = "green";
-    } else {
+    } else if (parseInt(display.textContent) < 0) {
       display.style.color = "red";
+    } else {
+      display.style.color = "rgb(51 51 51)";
     }
   })
 );
